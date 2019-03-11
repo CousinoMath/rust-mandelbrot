@@ -1,0 +1,10 @@
+[package]
+name = "mandelbrot"
+version = "0.1.0"
+authors = ["Andrew Cousino <cousinomath@gmail.com>"]
+
+[dependencies]
+crossbeam = "0.7.1"
+image = "0.21.0"
+num = "0.2.0"
+num_cpus = "1.10.0"
