@@ -98,7 +98,7 @@ fn main() {
     let args: Vec<String> = std::env::args().collect();
 
     if args.len() != 5 {
-        eprintln!("Useage: mandelbrot FILENAME PIXELS UPPERLEFT LOWERRIGHT");
+        eprintln!("Usage: mandelbrot FILENAME PIXELS UPPERLEFT LOWERRIGHT");
         std::process::exit(1);
     }
     let bounds = parse_pair(&args[2], 'x').expect("error parsing image dimensions");
