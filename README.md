@@ -7,4 +7,4 @@
 > mandelbrot example-1024x1024.png 1024x1024 -2,1 0.5,-1
 ```
 
-![Mandelbrot Set](https://www.github.com/CousinoMath/rust-mandelbrot/example-1024x1024.png)
+![Mandelbrot Set](example-1024.png)
